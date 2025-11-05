@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script src="https://kit.fontawesome.com/d57cb2708c.js" crossorigin="anonymous"></script>
+    <div class="logo-container">
+        <img src="images/logo.jpg" alt="Logo">
+    </div>
+     <div class="header-content">
+    <h1>CertiCode Solutions</h1>
+    <p class="slogan">"Certifica tu talento, impulsa tu futuro."</p>
+  </div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CertiCode Solutions</title>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="images/luispapiadrian_institutional_heraldic_shield_only_quartered_s_454de226-f4ea-4e8a-bcf3-d4a77aca636c_1 (1).png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>CertiCode Solutions</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="certificaciones.html">Certificaciones</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+    <div id="user-info"></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>¡Obtén tu certificación en desarrollo web!</h2>
+      <p>Demuestra tus habilidades y gana reconocimiento profesional.</p>
+      <button id="btnOpenLogin">Iniciar sesión</button>
+    </section>
+
+    <section class="info">
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Certificados automáticos en PDF</li>
+        <li>Exámenes con preguntas aleatorias</li>
+        <li>Diseño 100% en CSS sin frameworks</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- 🧾 Ventana modal de login -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Iniciar sesión</h2>
+      <input type="text" id="usuario" placeholder="Usuario">
+      <input type="password" id="contrasena" placeholder="Contraseña">
+      <button id="btnLogin">Entrar</button>
+      <p id="loginMsg"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+  <p>© 2025 CertiCode Solutions | Síguenos en
+    <a
+      href="https://www.instagram.com/sinergia.studio.mx?igsh=bXMxZmo4MnJ4aHV6&utm_source=qr"
+      target="_blank" rel="noopener noreferrer"
+      class="social instagram"
+      aria-label="Instagram de Sinergia Studio" title="Siguenos en instagram">
+      <i class="fa-brands fa-instagram"></i>
+      <span class="sr-only">Instagram</span>
+    </a>
+     <div class="contact">
+      <p>Contacto: <a href="mailto:contacto@tu.com">salvador.olivares@sinergiaestudiomkt.com</a></p>
+    </div>
+  </p>
+</footer>
+
+
+  <script src="js/main.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | CertiCode Solutions</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Header con el logo y el título -->
+  <header>
+    <div class="logo-container">
+      <!-- Logo de la empresa -->
+      <img src="images/logo.jpg" alt="Logo de CertiCode Solutions" />
+    </div>
+    <div class="header-content">
+      <h1>CertiCode Solutions</h1>
+      <p class="slogan">"Certifica tu talento, impulsa tu futuro."</p>
+    </div>
+    <nav>
+      <!-- Navegación -->
+      <a href="index.html">Inicio</a>
+      <a href="certificaciones.html">Certificaciones</a>
+      <a href="contacto.html" class="active">Contacto</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+  </header>
+
+  <!-- Sección Hero -->
+  <section class="hero">
+    <h2>¿Necesitas ayuda?</h2>
+    <p>Escríbenos y te respondemos lo antes posible.</p>
+  </section>
+
+  <!-- Main section (Formulario de contacto) -->
+  <main>
+    <div class="contact-wrap">
+      <!-- Formulario -->
+      <section class="form card">
+        <h3>Envíanos un mensaje</h3>
+        <form id="formContacto" novalidate>
+          <fieldset>
+            <div class="row">
+              <div>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+              </div>
+              <div>
+                <label for="correo">Correo</label>
+                <input id="correo" name="correo" type="email" placeholder="tucorreo@dominio.com" required />
+              </div>
+            </div>
+
+            <div class="row">
+              <div>
+                <label for="asunto">Asunto (opcional)</label>
+                <input id="asunto" name="asunto" type="text" placeholder="Tema del mensaje" />
+              </div>
+              <div>
+                <label for="privacidad">Privacidad</label>
+                <div class="helper">
+                  <input id="privacidad" name="privacidad" type="checkbox" required />
+                  Acepto el aviso de privacidad
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea>
+            </div>
+          </fieldset>
+
+          <div class="actions">
+            <button type="submit">Enviar</button>
+            <span class="helper">Tiempo de respuesta habitual: 24–48 h.</span>
+          </div>
+        </form>
+      </section>
+
+      <!-- Información de contacto -->
+      <aside class="info-card">
+        <h3>Información de contacto</h3>
+        <ul>
+          <li><strong>Correo:</strong> soporte@certicode.local</li>
+          <li><strong>Horario:</strong> Lun–Vie, 9:00–18:00</li>
+          <li><strong>Ubicación:</strong> Aguascalientes, MX</li>
+        </ul>
+        <div style="margin-top:12px;border:1px dashed var(--line);border-radius:8px;padding:12px;text-align:center;color:var(--muted)">
+          Mapa (placeholder)
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer unificado -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h4>CertiCode Solutions</h4>
+        <p>Certificaciones prácticas con resultados inmediatos.</p>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <nav>
+          <a href="index.html">Inicio</a><br />
+          <a href="certificaciones.html">Certificaciones</a><br />
+          <a href="contacto.html">Contacto</a><br />
+          <a href="nosotros.html">Nosotros</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Soporte</h4>
+        <p><a href="#">FAQ</a><br /> <a href="#">Aviso de privacidad</a></p>
+      </div>
+    </div>
+    <div class="legal">© 2025 CertiCode Solutions</div>
+    <!-- Ícono de Instagram en el footer -->
+    <div class="social">
+      <a href="https://www.instagram.com/sinergia.studio.mx?igsh=bXMxZmo4MnJ4aHV6&utm_source=qr"
+        target="_blank" rel="noopener noreferrer" class="social instagram" aria-label="Instagram de Sinergia Studio" title="Síguenos en Instagram">
+        <i class="fa-brands fa-instagram"></i> <!-- Ícono de Instagram -->
+        <span class="sr-only">Instagram</span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/contacto.js"></script>
+</body>
+
+</html>
